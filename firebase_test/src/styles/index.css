@@ -1,0 +1,67 @@
+@charset "UTF-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    background-color: #fff8de;
+    background-image: url("../images/light-orange-shapes.png");
+    padding: 0;
+    margin: 0;
+
+}
+
+/*header styles*/
+.primary_header {
+    text-align: left;
+    color: black;
+    background-color: #fac347;
+    margin-top: -5%;
+    margin-bottom: 1%;
+    padding-top: 5%;
+    padding-bottom: .05%;
+    padding-left: 2vw;
+
+}
+
+.secondary_header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    /*	width: 30vw;*/
+    font-size: 14px;
+    padding-left: 2vw;
+    gap: 20px;
+}
+
+.secondary_header a {
+    color: white;
+    text-decoration: none;
+    /*	border-bottom: 2px #C95D2B solid;*/
+    background-color: #C95D2B;
+    border-radius: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.secondary_header a:hover {
+    color: black;
+}
+
+.page_title {
+    text-align: center;
+    color: black;
+    font-size: 36px;
+    padding-top: 5vh;
+}
+
+/*game styles*/
+#game {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    width: 64vw;
+    height: 40vw;
+}

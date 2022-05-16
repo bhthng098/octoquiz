@@ -1,0 +1,165 @@
+
+/*general inputs styles*/
+#inputs_holder {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+textarea, input, button {
+    font-size: 18px;
+    font-family: 'Work Sans', sans-serif;
+    border: 2px solid rgba(8, 42, 85, 1);
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+
+/*generate random game ID button styles*/
+#generate_random_id_button {
+    background-color: #fac347;
+    border: 2px solid rgba(8, 42, 85, .8);
+    color: black;
+}
+
+#generate_random_id_button:hover {
+    background-color: #30A27A;
+    color: black;
+    cursor: pointer;
+}
+
+/*question box styles*/
+#question_box {
+    font-size: 20px;
+    color: black;
+}
+
+#question_box textarea {
+    margin-top: 5%;
+    width: 30vw;
+    height: 10vw;
+}
+
+/*answer box styles*/
+#correct_answer_input {
+    color: green;
+}
+
+.answer_box {
+    margin: auto;
+}
+
+#answers_boxes_label {
+    font-size: 20px;
+    color: black;
+}
+
+#answer_inputs_holder {
+    /*	width: 30%;*/
+    /*	color: #30A27A;*/
+    color: red;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 2.5vw;
+}
+
+/*submit button styles*/
+#submit_button {
+    text-align: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+#submit_button button {
+    background-color: #fac347;
+    border: 2px solid rgba(8, 42, 85, .8);
+    color: black;
+}
+
+#submit_button button:hover {
+    background-color: #30A27A;
+    color: black;
+    cursor: pointer;
+}
+
+/*added questions section styles*/
+#added_questions {
+    width: 70vw;
+    background-color: mintcream;
+    background-image: url("../images/shapes.png");
+    border: 2px solid rgba(8, 42, 85, .5);
+    border-radius: 4px;
+    padding: 15px;
+    line-height: 24px;
+    margin: auto auto 3vh;
+}
+
+.added_question_and_answers {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(255, 255, 255, .8);
+    border: 2px rgba(0, 0, 0, .5) solid;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.number {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    margin-right: 10px;
+    border: 2px black solid;
+    border-radius: 12px;
+}
+
+.added_q {
+    width: 40%;
+}
+
+.added_answers {
+    width: 50%;
+    border-left: 2px black solid;
+    padding-left: 10px;
+
+    margin-left: 10px;
+}
+
+.added_answers div {
+    border: 1px black solid;
+    border-radius: 4px;
+    margin-top: 3px;
+}
+
+.correct_added_answer {
+    color: black;
+    background-color: lightgreen;
+    border-radius: 4px;
+}
+
+.added_q_buttons {
+    text-align: right;
+}
+
+.added_q_buttons button {
+    font-size: 16px;
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+.added_q_buttons button:hover {
+    background-color: #fac347;
+    cursor: pointer;
+}
+
+/*save questions to game button styles*/
+#save_questions_button {
+    width:10vw;
+    position: fixed;
+    top: 87.5vh;
+    right:2vw;
+}

@@ -1,0 +1,67 @@
+/*fonts:*/
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Monoton&family=Press+Start+2P&family=Rubik+Glitch&family=Rubik+Puddles&display=swap');
+
+body {
+    text-align: center;
+}
+
+#thanks {
+    margin-top: 5vh;
+    font-size: 36px;
+}
+
+#credits {
+    text-align: center;
+    width: 80vw;
+    margin: 5vh auto auto;
+    font-size: 24px;
+}
+
+#names {
+    margin: 5vh;
+    display: flex;
+}
+
+#names div {
+    margin: auto;
+    width: 20vw;
+    padding: 10px;
+    font-size: 36px;
+}
+
+#siming:hover {
+    color: green;
+    font-family: 'Creepster', cursive;
+    font-size: 41px;
+}
+
+#zehua:hover {
+    color: navy;
+    font-family: 'Monoton', cursive;
+    font-size: 27px;
+}
+
+#beatrice:hover {
+    color: darkred;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 24px;
+}
+
+#anthony:hover {
+    color: indigo;
+    font-family: 'Rubik Glitch', cursive;
+    font-size: 32px;
+}
+
+#dan:hover {
+    font-family: 'Rubik Puddles', cursive;
+    font-size: 35px;
+}
+
+a {
+    color: navy;
+}
+
+a:hover {
+    color: blue;
+}
