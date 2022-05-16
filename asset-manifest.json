@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/octoquiz/static/css/main.c240cec1.css",
-    "main.js": "/octoquiz/static/js/main.72ca7179.js",
+    "main.js": "/octoquiz/static/js/main.5d1be632.js",
     "static/js/787.139d67d8.chunk.js": "/octoquiz/static/js/787.139d67d8.chunk.js",
     "static/media/light-orange-shapes.png": "/octoquiz/static/media/light-orange-shapes.34e9790d6f1e28278e78.png",
     "static/media/shapes.png": "/octoquiz/static/media/shapes.09edf1803ecfd41a73a6.png",
     "index.html": "/octoquiz/index.html",
     "main.c240cec1.css.map": "/octoquiz/static/css/main.c240cec1.css.map",
-    "main.72ca7179.js.map": "/octoquiz/static/js/main.72ca7179.js.map",
+    "main.5d1be632.js.map": "/octoquiz/static/js/main.5d1be632.js.map",
     "787.139d67d8.chunk.js.map": "/octoquiz/static/js/787.139d67d8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c240cec1.css",
-    "static/js/main.72ca7179.js"
+    "static/js/main.5d1be632.js"
   ]
 }
